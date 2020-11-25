@@ -1,0 +1,139 @@
+body {
+  display: block;
+  margin: 0;
+}
+/***********************************************/
+/********   Header ******************************/
+/***********************************************/
+header {
+  background-color: rgb(49, 50, 73);
+  padding-bottom: 10px;
+}
+h1 {
+  padding-top: 10px;
+  margin-top: 0px;
+  color: white;
+}
+nav > a {
+  color: white;
+  padding: 0 5px;
+  border-right: 1px solid white;
+}
+#menu4 {
+  border-right: none;
+}
+
+/******************************************/
+/***********   Body  *********************/
+/*****************************************/
+
+#containerPrincipal {
+  flex-direction: row;
+  display: inline-flex;
+  width: 100%;
+  margin-bottom: 5px;
+  
+}
+#containerGroup{
+  width: 70%;
+}
+.container {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  
+}
+#containerMenu {
+  background-color: cyan;
+  margin-left: 10px;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  width: 30%;
+}
+.block {
+  background-color: gray;
+  height: 60px;
+  width: 150px;
+  flex-grow: 2;
+  flex-shrink: 1;
+  margin: 10px 0px 5px 10px;
+  justify-content: center;
+  text-align: center;
+}
+#block1 {
+  background-color: cyan;
+}
+#block2 {
+  background-color: orangered;
+}
+#block3 {
+  background-color: greenyellow;
+}
+#block1,
+#block3 {
+  flex-grow: 1;
+}
+
+#block4,
+#block5,
+#block2 {
+  flex-grow: 5;
+}
+.number {
+  margin-top: 20px;
+}
+#block1,
+#block4 {
+  margin-left: 5px;
+}
+#block4,
+#block5 {
+  background-color: purple;
+  color: white;
+}
+/*****************************************/
+/************    Footer   ****************/
+/*****************************************/
+footer {
+  background-color: rgb(49, 50, 73);
+  height: 317px;
+}
+#containerFooter{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+h3{
+    color: white;
+    margin-left: 50px;
+}
+.ulFooter{
+    list-style: none;
+    
+}
+.ulFooter li::before{
+
+    content: "\2022";
+    color: white;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+#containerEtudiant{
+
+  padding-right: 60px;
+
+}
+.lienFooter{
+    color: white;
+    
+}
+#containerInfo{
+  padding-top: 40px;
+}
+#paragraphe{
+  margin-right: 120px;
+}

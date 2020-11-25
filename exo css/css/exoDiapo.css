@@ -1,0 +1,35 @@
+*{
+    display: block;
+}
+
+.container{
+    flex-direction: row;
+    background-color: cyan;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.block{
+    
+    background-color: gray;
+    height: 60px;
+    width: 150px;
+    flex-grow: 2;
+    flex-shrink: 1; 
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    justify-content: center;
+    text-align: center;
+}
+#block1, #block3{
+
+    flex-grow: 1;
+}
+
+#block4, #block5, #block2{
+    flex-grow: 5;
+}
+.number{
+    margin-top: 20px;
+}

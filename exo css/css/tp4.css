@@ -1,0 +1,26 @@
+body {
+  display: block;
+  margin: 0 auto;
+}
+h1 {
+  width: 100%;
+  color: royalblue;
+  border: 1px solid royalblue;
+  text-align: center;
+}
+.sousTitre {
+  color: green;
+  text-decoration: underline;
+}
+.element {
+  color: black;
+}
+
+div {
+  background-color: teal;
+  color: white;
+  padding: 10px 0;
+}
+p{
+    font-weight: bold;
+}
